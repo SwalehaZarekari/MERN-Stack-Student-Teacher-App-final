@@ -1,0 +1,320 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');*/
+* {
+  font-family: "Montserrat", sans-serif !important;
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+input {
+  border: 1px solid rgba(128, 128, 128, 0.716) ;
+  height: 40px ;
+}
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid gray !important;
+}
+label {
+  font-size: 16px !important;
+  color: black !important;
+}
+.ant-form-item {
+  margin: 10px 0 !important;
+}
+.card-title {
+  font-size: 1.5rem;
+  font-size: bold;
+}
+
+.normal-text {
+  font-size: 1rem;
+}
+.card {
+  box-shadow: 0 0 2px gray;
+  border-radius: 0;
+}
+.authentication .card-title {
+  background-color: #6295A2;
+  color: white;
+  font-weight: 600;
+  font-size: 1.3rem;
+  max-width: max-content;
+  padding: 7px 15px;
+  margin-left: -45px;
+  margin-top: -5px;
+  border-bottom-left-radius: 10px;
+}
+.primary-button {
+  background-color: #538392;
+  border-color: #538392;
+  height: 40px;
+  width: 200px;
+  color: #fbf9f1;
+  margin-left: 20%;
+  margin-top: 7%;
+  font-size: 16px;
+  border-radius: 0;
+  display: block;
+}
+.primary-button:hover {
+  background-color: #538392;
+}
+.anchor-part {
+  margin-top: 3%;
+  margin-left: 3%;
+}
+.anchor-part-2 {
+  margin-top: 3%;
+  margin-left: 30%;
+}
+.anchor {
+  color: black;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 500;
+}
+.anchor:hover {
+  text-decoration: underline;
+  color: black;
+}
+.authentication {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #538392;
+}
+.authentication-form {
+  width: 370px;
+}
+p {
+  display: inline;
+}
+
+.spinner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  background-color: rgba(233, 179, 179, 0.074);
+}
+
+/*Home page Layout*/
+.main {
+   position: absolute;
+   width: 100%;
+  padding: 0.5%;
+  height: 100vh;
+}
+.layout {/*add*/
+  position: relative;
+  display: flex;
+  flex-direction: row /*add*/
+
+}
+.sidebar {
+  position: relative;
+  min-height: 100%;
+  width: 300px;
+  display: flex;/*added*/
+  flex-direction: column;
+  border-radius: 5px;
+  background-color:#538392;
+  box-shadow: 0 0 2px rgb(152, 125, 154);
+ 
+  margin-right: 20px;
+  color: #F5EDED;
+}
+
+/*
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 250px; /* Adjust width on medium screens 
+  }
+}
+*/
+
+
+
+
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+.header {
+  position: relative;
+  height: 10vh;
+  margin-bottom: 20px;
+  background-color:#538392;
+  box-shadow: 0 0 2px gray;
+
+
+
+}
+
+
+
+
+
+
+.body {
+  position:relative;
+  height: 85vh;
+  margin-bottom: 20px;
+  box-shadow: 0 0 2px gray;
+}
+
+
+
+
+
+.body h1{
+  font-weight: 700;
+}
+.logo{
+    height: 100px;
+    text-align: center;
+    color:white
+}
+.logo p{
+    font-size: 0.6rem;
+    color:white;
+    font-weight: 400;
+}
+.logo h4{
+  font-size: 2rem;
+ 
+  margin: 20px 0px;
+  font-weight: 900;
+}
+.menu {
+  margin-top: 50px;
+}
+.menu-item {
+  margin-top: 30px;
+}
+.menu-item a {
+  color: #F5EDED;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.menu-item p {
+  font-size: 1.5rem;
+  margin: 0 15px;
+}
+.active {
+  background-color:#F5EDED ;
+  padding: 10px;
+}
+.active a,
+.avtive i {
+  color: #153448;
+}
+
+.header-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-content: flex-end;
+  margin: 0 15px;
+}
+
+.bell {
+  margin-right: 20px;
+  font-size: 1.2rem;
+  height: 20px;
+}
+
+.header-content a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+
+/*form*/
+.form-btn {
+  width: 250px !important;
+  margin-top: 30px !important;
+  background-color: #538392;
+  border: 2px solid  #538392;
+}
+
+.form-btn:hover {
+  background-color: #538392;
+  border: 2px solid  #538392;
+}
+
+.prof {
+  margin-top: 50px;
+}
+
+
+/*Notifictaion Page*/
+.not-head{
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+
+.card-headeraa{
+  height: 40px;
+  text-align: center;
+  padding-top: 0.1rem;
+  margin:0.5rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  background-color:#538392;
+  border-top-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  color: #F5EDED;
+  
+}
+.card-body p{
+  display: block;
+}
+
+.card-doc{
+  position: relative;
+  height:350px ;
+  width: 300px;
+  border: 2px solid black;
+}
+
+
+
+.card-body{
+  padding-left: 0.5rem;
+}
+.btnbooknow{
+  width: 200px;
+  height: 40px;
+  margin-left:37px;
+  margin-top: 0.5rem;
+  background-color: #538392;
+  border: 2px solid  #538392;
+  color: #fbf9f1;
+  font-weight: 700;
+}
+
+.send-Msg b{
+  display: block;
+}
+.Appointments{
+  position: relative;
+  padding-top: 10px;
+  
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.text-centeraa{
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
