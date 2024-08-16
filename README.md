@@ -6,16 +6,20 @@ then in your terminal in root file type npm i
 
 then type cd client and press enter  in client folder again  type npm i
 
-then in root file create .env file and write
+ After that in .env file 
+ Add your port number 
+  PORT=""
+  
+  NODE_ENV=development
+  
+ your mongodb conncetion url
+ MONGO_URL=""
 
-PORT=""
-NODE_ENV=development
-MONGO_URL=""
-JWT_SECRET=""
+ Write any String with number
+ JWT_SECRET=""
 
-then in terminal in root folder enter:
+ then in terminal in root folder type:  npm run dev
 
-npm run dev
-
+ 
 And yup your client and server will start concurrently
 
